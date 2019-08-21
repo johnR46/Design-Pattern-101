@@ -14,7 +14,7 @@ public class Amplifier {
 
     }
 
-    public setDvd(DvdPlayer dvd){
+    public void setDvd(DvdPlayer dvd){
         this.dvd = dvd;
         System.out.println("Amplifier setting DVD player");
     }
@@ -23,7 +23,7 @@ public class Amplifier {
         System.out.println("Amplifier surround sound on (5 speakers, 1 subwoofer)");
     }
 
-    public setVolume(int volume){
+    public void setVolume(int volume){
         System.out.println("Amplifier setting volume to " + volume);
     }
 

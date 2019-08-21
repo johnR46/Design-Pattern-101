@@ -15,11 +15,12 @@ public class DvdPlayer {
     }
 
     public void play(String movie) {
+        this.movie = movie;
         System.out.println("DVD Player play movie " + movie);
     }
 
     public void stop() {
-        System.out.println("DVD Player stopped " + this.dvd);
+        System.out.println("DVD Player stopped " + this.movie);
     }
 
     public void eject() {
